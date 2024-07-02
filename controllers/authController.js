@@ -8,7 +8,7 @@ const registerController = async (req, res) => {
     //validation
     if (exisitingUser) {
       return res.status(200).send({
-        success: false,
+        success: false, 
         message: "User ALready exists",
       });
     }
